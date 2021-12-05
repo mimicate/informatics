@@ -25,7 +25,7 @@ int main() {
     for(int i = 0; i < n; i++){
       for(int j = 0; j < m; j++){
             a[i][j] = i + j;
-            cout << a[i][j] << " ";
+            cout << a[i][j] << " " << endl;
       }
     }
 }
